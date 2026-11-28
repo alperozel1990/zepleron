@@ -1,0 +1,5 @@
+17.11 21:39:29 watch start: main=7623a7a ready=64126dc
+17.11 21:45:52 switch detected: NEW=404 OLD=401
+17.11 21:45:57 pushed main=64126dc
+17.11 21:46:02 droplet pulled now
+17.11 21:46:04 LIVE OK: game.js sha256 5cd6baa409f34caa = commit; NEW key @bn.zepleron.com=404

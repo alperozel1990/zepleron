@@ -1,0 +1,6 @@
+ACİL KISA DENETİM (salt okur) — Burn Notice gizlilik sayfası yayını (Platform T104, sahip istedi). Dal origin/t7-bn-privacy (3eed34e) → main'e alınacak.
+1. `git diff origin/main...origin/t7-bn-privacy --stat` YALNIZ site/burnnotice/privacy.html mi (28+/8−)? Başka dosya/yol değişmiş mi (play dizinleri, nginx, diğer privacy, adsense-hazirlik dalı)? main'in son hali (origin/main fc4b67f) ile çakışma var mı (git merge-tree).
+2. #silme (TR) ve #delete (EN) çapaları: id="silme" / id="delete" var, başlıklar "Hesap silme"/"Account deletion"; eski bağlantılar (zepleron.com/burnnotice/privacy.html#delete, #silme) çalışır mı (yerel sunucuda aç, çapaya kayıyor mu).
+3. İçerik: TR+EN dengeli; AdMob/UMP, ödüllü reklamda sunucu doğrulaması (SSV), Play Billing "Reklamları kaldır", tanılama (varsayılan kapalı), çevrimiçi sunucu/oyuncu kaydı, hesap silme (uygulama içi + e-posta 30 gün) var mı; birbirini yalanlayan ifade, eksik ya da bozuk HTML yok mu. (Sunucu adı "Nakama" metinde yok, "sunucumuz" deniyor: kabul.)
+4. Gizlilik/çerez/hesap-sil ve diğer oyun gizlilik sayfalarına dokunulmamış.
+Çıktı: kısa; ~/projects/reports/zepleron-bn-gizlilik-20261121/denetim.md, son satır VERDICT: PASS/FAIL. Acil: kısa tut.

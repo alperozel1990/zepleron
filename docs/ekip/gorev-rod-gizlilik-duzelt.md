@@ -1,0 +1,5 @@
+GÖREV (küçük) — rod-portal gizlilik düzeltmesi (denetçi bulgusu), dal rod-portal, YAYIN YOK
+
+Bulgu: site/rideordie/privacy.html "oyunda analitik/SDK yok, hesap yok" diyor; ama site/rideordie/play/index.html zepleron-sdk.js yüklüyor ve main.js Zepleron.init + track(play_start…) çağırıyor (api.zepleron.com'a anonim cihaz girişi + telemetri).
+Yap: (1) zepleron-sdk'nin gerçekte ne gönderdiğini oku (portal/sdk/ ve Quiver/BTN gizlilik sayfalarının bu konuyu nasıl anlattığı) ve rideordie/privacy.html'i (TR+EN) buna uygun düzelt: anonim cihaz kimliği + oyun olayı telemetrisi, ne zaman/neden, saklama, çerezsiz. Gerçeği yaz; olmayan bir şeyi iddia etme, paketi (play/) değiştirme/SDK'yi çıkarma. (2) Yalnız bu dosya + gerekirse üretilmiş çıktı; commit + `git push origin rod-portal`. (3) Aynı dalda denetçinin UNKNOWN dediği D&D alt çubuğu (portal.css .bar--dl @media≥600 kuralı) regresyonunu 1280×800 ve 412×915'te ölç (önce origin/main, sonra rod-portal); bozuluyorsa düzelt.
+Çıktı: kısa rapor (5 satır) ~/projects/reports/zepleron-rod-portal-20261120/rapor-gizlilik.md. Son satır DURUM: BİTTİ/…
